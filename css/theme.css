@@ -301,7 +301,7 @@ blockquote {
 /* End left-sidebar */
 
 .smart-search-form input[type="submit"] {
-    background: #004692 url("../../images/home1/icon-search.png") no-repeat scroll center center;
+    background: #004692 url("../images/home1/icon-search.png") no-repeat scroll center center;
     /* background: #fe9c00 url("../../public/images/home1/icon-search.png") no-repeat scroll center center; */
     border: medium none;
     height: 45px;
@@ -2144,7 +2144,7 @@ blockquote {
     width: 100%;
 }
 .newsletter-footer input[type="submit"] {
-    background: #fe9c00 url("../../images/home1/icon-newsletter.png") no-repeat scroll center center;
+    background: #fe9c00 url("../images/home1/icon-newsletter.png") no-repeat scroll center center;
     border: medium none;
     height: 35px;
     position: absolute;

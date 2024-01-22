@@ -1,15 +1,19 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1"/>
-	<title>About</title>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
     </script>
-	<link href='../../../../https@fonts.googleapis.com/css@family=Open+Sans_3A400,300,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href='../../../../https@fonts.googleapis.com/css@family=Open+Sans_3A400,300,700' rel='stylesheet' type='text/css'>
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
 	<link rel="stylesheet" type="text/css" href="css/font-linearicons.css"/>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
@@ -31,16 +35,16 @@
 				<div class="row">
 					<div class="col-md-3 col-sm-4 col-xs-12">
 						<ul class="top-menu">
-							<li><a href="about.html">About Us</a></li>
-							<li><a href="FAQ.html">FAQ</a></li>
-							<li><a href="contact.html">Contact Us</a></li>
+							<li><a href="/about.html">About Us</a></li>
+							<li><a href="/FAQ.html">FAQ</a></li>
+							<li><a href="/contact.html">Contact Us</a></li>
 						</ul>
 					</div>
 					<div class="col-md-9 col-sm-8 col-xs-12">
 						<ul class="top-info">
 							
 							
-							<li class="top-mobile"><a href="PM.html">PM </a></li>
+							<li class="top-mobile"><a href="{{route('pm')}}">PM </a></li>
 							<li class="top-mobile active"><a href="#">Achieve </a></li>
 							<li class="top-language has-child">
 								<a href="#" class="language-selected"><img src="images/home1/flag-default.jpg" alt=""/>English </a>
@@ -105,29 +109,29 @@
 		
 						</li>
 						<li class="text-center">
-							<a href="#">Spokesperson Unit</a>
+							<a href="spokespersonUnit.html">Spokesperson Unit</a>
 					
 						</li>
 						<li  class="text-center">
-							<a href="list.html">Press Briefing </a>
+							<a href="#">Press Briefing </a>
 							
 						</li>
 						<li  class="text-center">
-							<a href="grid.html">Public Schedule</a>
+							<a href="#">Public Schedule</a>
 							
 						</li>
 						<li class="text-center">
-							<a href="grid.html">Press Release</a>
+							<a href="#">Press Release</a>
 							
 						</li>
 						<li class="text-center">
-							<a href="list.html">Pentagonal Strategy</a>
+							<a href="PentagonalStrategy.html">Pentagonal Strategy</a>
 						</li>
 						<li class="text-center">
 							<a href="PM.html">PM</a>
 						</li>
 						<li class="text-center">
-							<a href="blog-v1.html">Achieve</a>
+							<a href="#">Achieve</a>
 							
 						</li>
 						<!-- <li >
@@ -144,16 +148,19 @@
 
 	<!-- End Header -->
 	<div id="content">
-		<div class="content-page m-0">
+		<div class="box-adv-col1 mb-5">
 			<div class="about-banner zoom-image-thumb active">
 				<a href="#"><img class="" src="images/home10/slide2.jpg" alt="" /></a>
 			</div>
+			<!-- <div class="">
+				<a href="#"><img src="images/home10/slide1.jpg" alt=""></a>
+			</div> -->
+		</div>
+		<div class="content-page m-0">
+			
 			<div class="container">
-				<div class="box-adv-col1 mt-5">
-					<div class="">
-						<a href="#"><img src="images/home10/slide1.jpg" alt=""></a>
-					</div>
-				</div>
+				
+				
 				<!-- <ul class="about-menu">
 					<li><a href="#">Introduction </a></li>
 					<li><a href="#">Protection</a></li>
@@ -185,8 +192,12 @@
 					<p class="desc">អង្គភាព​អ្នកនាំពាក្យ​រាជរដ្ឋាភិបាល​ ដែល​មាន​អក្សរ​កាត់ថា​ (អ.អ.រ)​ ត្រូវ​បានបង្កេីត​ឡេីង​ដោយ​អនុក្រឹត្យ​លេខ​ ១១៧អនក្រ.បក​ ចុះថ្ងៃទី១៥​ ខែសីហា​ ឆ្នាំ២០១៩​។ (អ.អ.រ​)​ ជា​សេនាធិការ​រាជរដ្ឋាភិបាល​ លេីកិច្ចការ​នាំពាក្យ​ និងផ្ដល់​ព័ត៌មាន​ ដេីម្បីប្រសិទ្ធភាព​នៃ​ការងារ​ជូន​ដល់សាធារណជន​ ជាតិ​ និងអន្តរជាតិ​ ក្នុងកិច្ច​យល់ដឹង​យ៉ាងពិតប្រាកដ​ ជាមួយនឹងកិច្ច​ពង្រឹងការទុកចិត្ត​ និងការចូលរួមគាំទ្រ​រាជរដ្ឋាភិបាល​ អំពីអ្វី​ដែល​ជាក់ស្ដែងនៃសមិទ្ធផល​ និងវឌ្ឍនភាព​ ក្នុងការអនុវត្តយុទ្ធសាស្ត្រ​ចតុកោណដំណាក់កាលទី៤​ គោលនយោបាយ​អាទិភាពរបស់​រាជរដ្ឋាភិបាល​ នីតិកាលទី៦​ នៃរដ្ឋសភា។</p>
 					<br><p class="desc">គោលការណ៍ពិតប្រាកដ​ គឺ​ជាកិច្ច​តស៊ូមតិ​ នៅក្នុង​មជ្ឈដ្ឋាន​រណសិរ្ស​ មតិ​សាធារណៈ​ ពី​ការ​បំពុល​ព័ត៍មាន​របស់ក្រុម​ប្រតិកិរិយា​ ក្នុងកិច្ច​ពង្រឹងពង្រីក​ នៃ​ឧត្តមភាព​ប្រកប​ដោយភាព​វិជ្ជមាន​ទូលំ​ទូលាយ​ នៃ​ព័ត៍មាន​ផ្លូវ​ការ​របស់​រដ្ឋ​ ដែល​មាន​ប្រៀប​ខ្លាំង។ កិច្ច​អូស​ទាញ​ភាព​ជឿជាក់​ និងទុកចិត្ត​បំផុតរបស់​សាធារណជន​ តាម​រយៈការ​បំផុស​ភាព​វិជ្ជមាន​អោយ​មាន​វិសាល​ភាព​ទូលំទូលាយ​ ដែល​ភាពវិជ្ជមាន​នេះ​ចូល​រួម​យ៉ាង​សកម្មក្នុង​ការ​បំផ្លាញ​ព័ត៍មាន​អវិជ្ជមាន​ ព័ត៍មាន​ក្លែងក្លាយ​ ព័ត៍មាន​ប្រឌិត​ និង​ព័ត៍មាន​ប្រតិកិរិយា។</p>
 				</div>
-
-				<div class="col-md-12 col-sm-8 col-sm-12">
+				<div class="box-adv-col1">
+					<div class="item-adv-simple">
+						<a href="#"><img src="images/home1/ad5.png" alt=""></a>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-5 col-sm-12">
 					<div class="content-left-category-hover mt-5">
 						
 						<h2 class="title-box10 text-center">The RGC’s six policies</h2>
@@ -231,20 +242,30 @@
 						<!-- End Category Brand Slider -->
 					</div>
 				</div>
-					
-				<div class="col-md-12 col-sm-8 col-sm-12 m-0">
-					<div class="blog-post-thumb">
+				<!-- <div class="col-md-8">
+					<div class="banner-category-hover">
+						<div class="banner-cat-hover-thumb">
+							<a href="#"><img alt="" src="images/home2/slide1.jpg"></a>
+						</div>
+						<div class="banner-cat-hover-info">
+							
+						</div>
+					</div>
+				</div> -->
+				<div class="col-md-8 col-sm-7 col-sm-12 m-0 overflow-auto mt-5" style="height: 700px;">
+					<div class="blog-post-thumb" >
 						<!-- <div class="post-info-extra">
 							<div class="post-date"><strong>21</strong><span>Dec, 2023</span></div>
 							<div class="post-format"><i class="fa fa-picture-o"></i></div>
 						</div> -->
-						<!-- <div class="zoom-image-thumb">
+						<div class="zoom-image-thumb">
 							<a href="#"><img src="images/blog/ព្រះរាជក្រិត្យ-1.jpg" alt="" /></a>
 							<a href="#"><img src="images/blog/ព្រះរាជក្រិត្យ-2.jpg" alt="" /></a>
 							<a href="#"><img src="images/blog/ព្រះរាជក្រិត្យ-3.jpg" alt="" /></a>
 							<a href="#"><img src="images/blog/ព្រះរាជក្រិត្យ-4.jpg" alt="" /></a>
+							<a href="#"><img src="images/home2/slide1.jpg" alt="" /></a>
 							
-						</div> -->
+						</div>
 					</div>
 				</div>
 
@@ -343,14 +364,5 @@
 	</div>
 	<!-- End Footer -->
 </div>
-<script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/jquery.fancybox.js"></script>
-<script type="text/javascript" src="js/jquery-ui.js"></script>
-<script type="text/javascript" src="js/owl.carousel.js"></script>
-<script type="text/javascript" src="js/TimeCircles.js"></script>
-<script type="text/javascript" src="js/slideshow/jquery.themepunch.revolution.js"></script>
-<script type="text/javascript" src="js/slideshow/jquery.themepunch.plugins.min.js"></script>
-<script type="text/javascript" src="js/theme.js"></script>
 </body>
 </html>

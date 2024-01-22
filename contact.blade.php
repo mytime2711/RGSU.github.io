@@ -115,7 +115,7 @@
 				<nav class="main-nav main-nav10">
 					<ul>
 						<li>
-							<a href="home-10.html">home</a>
+							<a href="index.html">home</a>
 		
 						</li>
 						<li>

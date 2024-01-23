@@ -9,7 +9,8 @@
     .item-featured-product { min-height: 280px }
     .item-paginav-featured{min-height: 465px;}
     .footer-top{display: flex; align-items: center;}
-    .menu-footer a{height: 20px;display: flex; align-items: center;}
+    .menu-footer a{height: 20px; display: flex; align-items: center;}
+    .footer-top { display: flex; align-items: center;}
 }
 @media (max-width:1024px) {
     .wrap-category-dropdown { display: none; min-width: 290px }

@@ -1838,7 +1838,7 @@ blockquote {
 }
 .logo-footer {
     display: inline-block;
-    margin-right: 35px;
+/*     margin-right: 35px; */
     vertical-align: middle;
 }
 .menu-footer {

@@ -2632,16 +2632,16 @@ blockquote {
 	border-color:#fe9c00;
 }
 .shop-tab-select a.grid-tab{
-	background:url("../../images/grid/grid.png") no-repeat center center;
+	background:url("../images/grid/grid.png") no-repeat center center;
 }
 .shop-tab-select li.active a.grid-tab{
-	background:#fe9c00 url("../../images/grid/grid-at.png") no-repeat center center;
+	background:#fe9c00 url("../images/grid/grid-at.png") no-repeat center center;
 }
 .shop-tab-select a.list-tab{
-	background:url("../../images/grid/list.png") no-repeat center center;
+	background:url("../images/grid/list.png") no-repeat center center;
 }
 .shop-tab-select li.active a.list-tab{
-	background:#fe9c00 url("../../images/grid/list-at.png") no-repeat center center;
+	background:#fe9c00 url("../images/grid/list-at.png") no-repeat center center;
 }
 .sort-pagi-bar {
     float: right;
